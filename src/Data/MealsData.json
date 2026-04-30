@@ -1,0 +1,125 @@
+[
+    {
+        "name": "Appetizer",
+        "items": [
+            {
+                "name": "Garlic Bread",
+                "description": "Roti panggang dengan mentega dan bawang putih.",
+                "price": 18,
+                "badge": "Best Seller"
+            },
+            {
+                "name": "Chicken Wings",
+                "description": "Sayap ayam goreng dengan saus pedas manis.",
+                "price": 28
+            },
+            {
+                "name": "French Fries",
+                "description": "Kentang goreng renyah dengan saus pilihan.",
+                "price": 20
+            },
+            {
+                "name": "Onion Rings",
+                "description": "Bawang bombay goreng crispy dengan saus mayo.",
+                "price": 22,
+                "badge": "Best Seller"
+            },
+            {
+                "name": "Mozzarella Sticks",
+                "description": "Keju mozzarella goreng lumer di dalam.",
+                "price": 26
+            },
+            {
+                "name": "Nachos Cheese",
+                "description": "Keripik nachos dengan saus keju dan salsa.",
+                "price": 24
+            },
+            {
+                "name": "Spring Rolls",
+                "description": "Lumpia goreng isi sayur dengan saus manis.",
+                "price": 19
+            }
+        ]
+    },
+    {
+        "name": "Main Course",
+        "items": [
+            {
+                "name": "Grilled Chicken Steak",
+                "description": "Ayam panggang dengan saus BBQ dan sayuran.",
+                "price": 45,
+                "badge": "Best Seller"
+            },
+            {
+                "name": "Beef Burger",
+                "description": "Daging sapi juicy dengan keju dan sayuran segar.",
+                "price": 38
+            },
+            {
+                "name": "Spaghetti Carbonara",
+                "description": "Pasta creamy dengan smoked beef dan keju.",
+                "price": 42
+            },
+            {
+                "name": "Chicken Teriyaki Bowl",
+                "description": "Ayam dengan saus teriyaki manis gurih, disajikan dengan nasi hangat.",
+                "price": 40,
+                "badge": "Best Seller"
+            },
+            {
+                "name": "Fish and Chips",
+                "description": "Ikan goreng crispy dengan kentang dan saus tartar.",
+                "price": 44
+            },
+            {
+                "name": "Creamy Mushroom Pasta",
+                "description": "Pasta dengan saus krim jamur yang gurih dan lembut.",
+                "price": 39
+            }
+        ]
+    },
+    {
+        "name": "Dessert",
+        "items": [
+            {
+                "name": "Chocolate Lava Cake",
+                "description": "Kue coklat dengan lelehan coklat di dalam.",
+                "price": 25
+            },
+            {
+                "name": "Vanilla Ice Cream",
+                "description": "Es krim vanilla lembut dan manis.",
+                "price": 15
+            }
+        ]
+    },
+    {
+        "name": "Beverages",
+        "items": [
+            {
+                "name": "Iced Americano",
+                "description": "Kopi hitam dingin yang segar.",
+                "ice": 22,
+                "hot": 20
+            },
+            {
+                "name": "Cappuccino",
+                "description": "Kopi dengan susu foam yang creamy.",
+                "ice": 28,
+                "hot": 26
+            },
+            {
+                "name": "Matcha Latte",
+                "description": "Minuman matcha dengan susu yang lembut.",
+                "ice": 30,
+                "hot": 28
+            },
+            {
+                "name": "Lemon Tea",
+                "description": "Teh segar dengan rasa lemon.",
+                "ice": 20,
+                "hot": 18
+            }
+        ]
+    }
+]

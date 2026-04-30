@@ -1,0 +1,220 @@
+[
+    {
+        "id": 1,
+        "category": "Kopi",
+        "items": [
+            {
+                "name": "Espresso",
+                "hot": 15
+            },
+            {
+                "name": "Americano",
+                "ice": 21,
+                "hot": 20
+            },
+            {
+                "name": "Cappuccino",
+                "ice": 28
+            },
+            {
+                "name": "Piccolo",
+                "ice": 23
+            },
+            {
+                "name": "Latte",
+                "ice": 27,
+                "hot": 25
+            },
+            {
+                "name": "Mochaccino",
+                "ice": 32,
+                "hot": 30
+            },
+            {
+                "name": "Caramel Macchiato",
+                "ice": 29,
+                "hot": 27
+            },
+            {
+                "name": "Flavoured Latte",
+                "ice": 29,
+                "hot": 28
+            },
+            {
+                "name": "Almond Creme Brulee"
+            },
+            {
+                "name": "Affogato",
+                "ice": 30
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "category": "Bukan Kopi",
+        "items": [
+            {
+                "name": "Strawberry Mojito",
+                "ice": 31
+            },
+            {
+                "name": "Mango Mojito",
+                "ice": 31
+            },
+            {
+                "name": "Lotus Milkyway",
+                "ice": 33
+            },
+            {
+                "name": "Tropical Freeze",
+                "ice": 32
+            },
+            {
+                "name": "Signature Chocolate",
+                "ice": 30,
+                "hot": 29
+            },
+            {
+                "name": "Choco Banana",
+                "ice": 32,
+                "hot": 30
+            },
+            {
+                "name": "Matcha Latte",
+                "ice": 33,
+                "hot": 31
+            },
+            {
+                "name": "Banana Smoothies",
+                "ice": 31
+            },
+            {
+                "name": "Thai Tea",
+                "ice": 27
+            },
+            {
+                "name": "Lychee Tea",
+                "ice": 26
+            },
+            {
+                "name": "Peach Tea",
+                "ice": 26
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "category": "Makanan",
+        "items": [
+            {
+                "name": "Ricebowl Sambal Geprek",
+                "price": 35
+            },
+            {
+                "name": "Ricebowl Salted Egg",
+                "price": 37
+            },
+            {
+                "name": "Cordon Bleu",
+                "price": 37
+            },
+            {
+                "name": "Dimsum",
+                "price": 28
+            },
+            {
+                "name": "Dimsum Mentai",
+                "price": 31
+            },
+            {
+                "name": "French Fries",
+                "price": 23
+            },
+            {
+                "name": "Risol",
+                "price": 17
+            },
+            {
+                "name": "Pisang Goreng Kampoeng",
+                "price": 20
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "category": "Khas",
+        "items": [
+            {
+                "name": "Kopi Susu Foja",
+                "ice": 26,
+                "hot": 24
+            },
+            {
+                "name": "Kopi Susu Banana",
+                "ice": 29,
+                "hot": 28
+            },
+            {
+                "name": "Kopi Cinnamon",
+                "ice": 30,
+                "hot": 28
+            },
+            {
+                "name": "Black Forest",
+                "ice": 36
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "category": "Diseduh",
+        "items": [
+            {
+                "name": "V60",
+                "price": 32
+            },
+            {
+                "name": "Vietnam Drip",
+                "price": 26
+            },
+            {
+                "name": "Tubruk",
+                "price": 20
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "category": "Plant Based",
+        "items": [
+            {
+                "name": "Kopi Foja Plant",
+                "ice": 30,
+                "hot": 28
+            },
+            {
+                "name": "Latte Plant",
+                "ice": 31,
+                "hot": 30
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "category": "Additional",
+        "items": [
+            {
+                "name": "Espresso",
+                "price": 7
+            },
+            {
+                "name": "Caramel Sauce",
+                "price": 7
+            },
+            {
+                "name": "Vanilla Ice Cream",
+                "price": 8
+            }
+        ]
+    }
+]

@@ -1,0 +1,176 @@
+.meals-container {
+    min-width: 350px;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    gap: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+
+    background-color: var(--color-bg);
+    /* border: 1px solid var(--color-text-primary); */
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* =======================
+HEADER
+======================= */
+.meals-header {
+    width: 100%;
+    gap: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.meals-header button {
+    padding: 5px;
+    border: none;
+    background: rgba(255, 255, 255, 0.095);
+    border-radius: 8px;
+    color: var(--color-primary);
+    cursor: pointer;
+    font-size: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+.meals-header h2 {
+    font-size: var(--text-xl);
+    font-weight: 600;
+    color: var(--color-primary);
+}
+
+
+/* =======================
+IMAGE
+======================= */
+.meals-pic {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(199, 199, 199, 0.18);
+}
+
+.meals-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* =======================
+BOX
+======================= */
+.meals-box {
+    width: 100%;
+    height: 60vh;
+    overflow-y: auto;
+
+    border-radius: 8px;
+    padding: 10px 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+
+    color: var(--color-text-primary);
+
+    /* border: 1px solid var(--color-border); */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 15px;
+    font-size: 15px;
+
+    -webkit-overflow-scrolling: touch;
+    /* smooth di iOS */
+
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+/* Chrome, Safari */
+.meals-box::-webkit-scrollbar {
+    display: none;
+}
+
+
+.meals-card {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    padding-bottom: 10px;
+}
+
+.badge {
+    font-size: 10px;
+    /* font-weight: normal; */
+    font-family: 'Inter', sans-serif;
+    background: orange;
+    letter-spacing: 0;
+    color: black;
+    padding: 4px 6px;
+    border-radius: 4px;
+    margin-left: 6px;
+}
+
+.meals-card h3 {
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.meals-card .desc {
+    width: 90%;
+    font-size: 12px;
+    opacity: 0.8;
+    color: var(--color-text-secondary);
+}
+
+.meals-price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    min-width: 60px;
+    /* biar stabil */
+}
+
+.meals-price p {
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--color-primary);
+}
+
+.price-box {
+    display: flex;
+    flex-direction: column;
+    /* ⬅️ ini kunci biar gak nabrak */
+    align-items: flex-end;
+    /* biar rata kanan */
+    gap: 2px;
+}
+
+.price-box p {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--color-primary);
+    margin: 0;
+    text-align: justify;
+    width: 100%;
+    word-spacing: 4px;
+}
