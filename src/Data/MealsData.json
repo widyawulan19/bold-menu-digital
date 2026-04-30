@@ -47,13 +47,13 @@
             {
                 "name": "Grilled Chicken Steak",
                 "description": "Ayam panggang dengan saus BBQ dan sayuran.",
-                "price": 45,
-                "badge": "Best Seller"
+                "price": 45
             },
             {
                 "name": "Beef Burger",
                 "description": "Daging sapi juicy dengan keju dan sayuran segar.",
-                "price": 38
+                "price": 38,
+                "badge": "Best Seller"
             },
             {
                 "name": "Spaghetti Carbonara",
@@ -63,8 +63,7 @@
             {
                 "name": "Chicken Teriyaki Bowl",
                 "description": "Ayam dengan saus teriyaki manis gurih, disajikan dengan nasi hangat.",
-                "price": 40,
-                "badge": "Best Seller"
+                "price": 40
             },
             {
                 "name": "Fish and Chips",
