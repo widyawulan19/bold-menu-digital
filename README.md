@@ -94,8 +94,8 @@ This digital menu is not just a UI — it's a product solution for small busines
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/rene-cafe-menu.git
-cd rene-cafe-menu
+git clone https://github.com/widyawulan19/bold-menu-digital.git
+cd bold-menu-digital
 ```
 
 ---
@@ -186,8 +186,8 @@ This project is open-source and available under the MIT License.
 ---
 
 
-## Deploy link 
-https://cafe-menu-digital-peach.vercel.app
+## LIVE PREVIRW / Deploy link 
+https://bold-menu-digital.vercel.app
 
 ## Preview 
 ![Welcome Screen](./public/assets/welcome.png)
