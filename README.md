@@ -1,48 +1,74 @@
-# ☕ Rene Cafe — Digital Menu Web App
+# Digital Menu Web App — Restaurant Edition
 
-A modern digital menu web app designed to deliver a seamless, app-like experience directly from the browser.
-Built with a mobile-first approach, this project allows users to explore menus, search items, and interact just like a native application.
+A modern, mobile-first digital menu web app designed to deliver a seamless, app-like experience directly from the browser.
+
+Built for restaurants and cafés, this solution transforms traditional menu displays into a clean, interactive, and user-friendly digital experience.
 
 ---
 
 ## Problem Statement
 
-Rene Cafe previously displayed its menu using static images stored in Google Drive, such as catalog photos and promotional posters.
+Many restaurants still rely on static menu displays such as image-based menus stored in platforms like Google Drive or posted on social media.
 
-This approach created several usability issues:
+This approach creates several usability issues:
 
 * Menu presented as images instead of structured data
-* Users had to zoom in and out to read menu items clearly
-* Slower interaction when searching for specific items
-* Poor mobile experience due to non-responsive content
-* No search or filtering capability
-* Dependency on external platforms (Google Drive)
+* Users must zoom in and out to read items clearly
+* Difficult to browse or find specific menu items
+* Poor mobile experience (not responsive)
+* No categorization or smooth navigation
+* No scalability for menu updates (price/menu changes)
 
-As a result, the overall customer experience was less efficient and not aligned with modern digital standards.
+As a result, the customer experience becomes inefficient and less engaging.
 
 ---
 
 ## ✨ Solution
 
-This project transforms the static menu into an interactive digital experience:
+This project transforms traditional menus into a modern digital product:
 
-* Mobile-first, app-like UI
-* Real-time search functionality
-* Category-based navigation (Drinks, Meals, etc.)
-* Fast and responsive performance
-* Clean and structured menu layout
-* Ready for integrations (WhatsApp ordering & Maps location)
+*  Mobile-first, app-like interface
+*  Category-based navigation (Appetizer, Main Course, Dessert, Beverages)
+*  Structured and easy-to-read menu layout
+*  Fast and responsive performance
+*  Focused UX: Browse menu quickly without friction
+*  Ready for integration (WhatsApp, location, etc.)
+
+
+## User Flow
+
+Designed with simplicity and usability in mind:
+
+* Welcome Page
+   → Intro & branding of the restaurant
+* Choose Menu
+   → Users select menu categories (e.g. Appetizer, Main Course, Drinks)
+* Menu Page
+   → Display menu items with:
+   ** Name
+   ** Description
+   ** Price / Ice & Hot variants (for beverages)
+
 ---
 
-## ✨ Features
+## Key Features
+* Clean typography-based design (no dependency on images)
+* Supports both:
+* Standard pricing (food)
+* Variant pricing (ice / hot drinks)
+* Lightweight and fast loading
+* Easy to customize for different restaurants
+* Scalable structure for future features
 
-*  Mobile-first, app-like UI
-*  Real-time search menu items
-*  Category-based navigation (Drinks, Meals, etc.)
-*  Fast and responsive performance
-*  Clean and minimal design
-*  Integration-ready (WhatsApp & Google Maps)
 
+## Why This Matters
+
+This digital menu is not just a UI — it's a product solution for small businesses:
+
+* Improves customer experience
+* Speeds up menu browsing
+* Makes the business look more modern & professional
+* Easy to update compared to static image menus
 ---
 
 ## 🖼️ Preview
@@ -159,18 +185,12 @@ This project is open-source and available under the MIT License.
 
 ---
 
-## ☕ About
-
-Built with passion to enhance digital dining experiences.
-Rene Cafe Digital Menu aims to bring simplicity, speed, and elegance into one platform.
-
-## About RENE CAFE
-1. location https://www.google.com/maps/place/Rene+Cafe/data=!4m7!3m6!1s0x2e6993ee246aa691:0x31fb3bd7dd78af19!8m2!3d-6.3566556!4d106.9083157!16s%2Fg%2F11swyqmjpq!19sChIJkaZqJO6TaS4RGa943dc7-zE
 
 ## Deploy link 
 https://cafe-menu-digital-peach.vercel.app
 
 ## Preview 
 ![Welcome Screen](./public/assets/welcome.png)
+![Choose Screen](./public/assets/choose.png)
 ![Menu Screen](./public/assets/menu.png)
 
